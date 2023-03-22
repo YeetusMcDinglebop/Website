@@ -1,0 +1,27 @@
+
+body {
+    font-faimily: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg {
+    background: url('https://deih43ym53wif.cloudfront.net/kuta-bali-beach-indonesia-shutterstock_297303287.jpg_9b516347e5.jpg')
+    no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(30px);
+    z-index: -1;
+    position: absolute;
+}
+
+
+.loading-text {
+    font-size: 50px;
+    color: rgb(#ffffff);
+
+}
