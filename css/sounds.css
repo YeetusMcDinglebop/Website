@@ -1,7 +1,7 @@
-@import url('')
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
 body {
-    font-family: '', sans-serif;
+    font-family: 'Rubik Iso', cursive;
     background-color: rgb(161, 100, 223);
     display: flex;
     align-items: center;
