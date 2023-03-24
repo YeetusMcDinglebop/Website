@@ -50,6 +50,7 @@ body {
 .search.active .btn {
     transform: translateX(198px);
 }
+
 .btn:focus, .input:focus {
     outline: none;
 }
