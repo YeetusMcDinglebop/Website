@@ -47,7 +47,7 @@ body {
     width: 200px;
 }
 
-.search.active .btn{
+.search.active .btn {
     transform: translateX(198px);
 }
 .btn:focus, .input:focus {
