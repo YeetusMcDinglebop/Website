@@ -26,11 +26,9 @@ body {
     padding: 15px;
     height: 50px;
     width: 50px;
-    transition: width is ease;
+    transition: width 1s ease;
 }
-.search.active .btn{
-    transform: translation(198)
-}
+
 .btn {
     background-color: white;
     border: 0;
@@ -41,6 +39,7 @@ body {
     left: 0;
     height: 50px;
     width: 50px;
+    transition: transform 1s ease;
 }
 
 
