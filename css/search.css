@@ -49,8 +49,8 @@ body {
 }
 
 .search.active .btn{
-    transform: translatex(240px);
+    transform: translateX(198px);
 }
 .btn:focus, .input:focus {
     outline: none;
-} 
+}
