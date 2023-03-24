@@ -11,11 +11,11 @@ body {
 
 .container {
     background-color: #fafafa;
-    padding: 50px;
-    width: 50vw;
+    width: 100vw;
     min-height: 100vh;
-    transform-origin: top left;
+    padding: 50px;
     transition: transform 1s linear;
+    transform-origin: top left;
 }
 
 .container.show-nav {
