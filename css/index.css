@@ -44,6 +44,7 @@ a.loading {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: white;
     position: absolute;
     left: 68%;
     top: 5%;
