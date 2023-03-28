@@ -16,6 +16,8 @@ body {
 }
 
 .container {
+    position: relative;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
