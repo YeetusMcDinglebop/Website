@@ -17,30 +17,27 @@ body {
 
 .container {
     position: relative;
-    height: 500px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin: 30px 50px;
-    width: 100%;
+   
 }
 
 a.jokes {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
-    left: 68%;
-    top: 5%;
+    position: relative;
     width: 275px;
     height: 275px;
     border: 3px solid #73AD21;
     padding: 10px;
-    z-index: -1;
-    margin: 1px;
+    margin: 10px;
     border-radius: 50px;
     cursor: pointer;
     color: #ffffff;
+    flex: 1;
 }
 
 a.loading {
@@ -49,17 +46,16 @@ a.loading {
     background-repeat: no-repeat;
     background-color: white;
     position: relative;
-    margin: 1px
+    margin: 10px
     top: 5%;
     width: 275px;
     height: 275px;
     border: 3px solid #73AD21;
     padding: 10px;
-    z-index: 1;
     border-radius: 50px;
     cursor: pointer;
     color: #ffffff;
-
+    flex: 1;
 }
 
 a.search {
@@ -67,13 +63,12 @@ a.search {
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     width: 275px;
     height: 275px;
     border: 3px solid #73AD21;
     padding: 10px;
-    z-index: 5;
-    margin: 1px;
+    margin: 10px;
     border-radius: 50px;
     cursor: pointer;
     color: #ffffff;
@@ -85,16 +80,16 @@ a.progress {
     background-position: center;
     background-color: white;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     width: 275px;
     height: 275px;
     border: 3px solid #73AD21;
     padding: 10px;
-    z-index: -1;
-    margin: 1px;
+    margin: 10px;
     border-radius: 50px;
     cursor: pointer;
     color: #ffffff;
+    flex: 1;
 }
 
 a.expanding {
@@ -102,16 +97,16 @@ a.expanding {
     background-position: center;
     background-color: white;
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     width: 275px;
     height: 275px;
     border: 3px solid #73AD21;
     padding: 10px;
-    z-index: -1;
-    margin: 1px;
+    margin: 10px;
     border-radius: 50px;
     cursor: pointer;
     color: #ffffff;
+    flex: 1;
 }
 
 a.navigation1 {
@@ -119,18 +114,16 @@ a.navigation1 {
     background-position: center;
     background-color: white;
     background-repeat: no-repeat;
-    position: absolute;
-    left: 38%;
-    top: 50%;
+    position: relative;
     width: 275px;
     height: 275px;
     border: 3px solid #73AD21;
     padding: 10px;
-    z-index: -1;
-    margin: 1px;
+    margin: 10px;
     border-radius: 50px;
     cursor: pointer;
     color: #ffffff;
+    flex: 1;
 }
 
 a.index {
@@ -138,16 +131,14 @@ a.index {
     background-position: center;
     background-color: white;
     background-repeat: no-repeat;
-    position: absolute;
-    left: 68%;
-    top: 50%;
+    position: relative;
     width: 275px;
     height: 275px;
     border: 3px solid #73AD21;
     padding: 10px;
-    z-index: -1;
-    margin: 1px;
+    margin: 10px;
     border-radius: 50px;
     cursor: pointer;
     color: #ffffff;
+    flex: 1;
 }
